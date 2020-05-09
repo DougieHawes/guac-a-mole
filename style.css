@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    color: #f8f8f8;
+    font-family: sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+}
+
+span {
+    color: gold;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+h2 {
+    display: inline;
+    font-size: 14px;
+}
+
+.square {
+    background-color: #f8f8f8;
+    border: 2px solid #666;
+    cursor: pointer;
+    height: 70px;
+    margin: 3px;
+    width: 70px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    margin: 0 auto;
+    width: 532px;
+}
+
+.avo {
+    background-image: url('./images/avocado.jpg');
+    background-size: cover;
+}
